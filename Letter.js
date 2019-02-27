@@ -1,9 +1,11 @@
 // constructor that builds letters
-    // fields:
-        // value (A, B, C)
-        // letterGuessed
-        // placeholder (maybe)
 
+function Letter(value) {
+     this.value = value,
+     this.letterGuessed = false,
+     this.placeholder = '_'
+}
+module.exports = Letter
 
  // function 
    // if (letterGuessed) return value
